@@ -1,0 +1,7 @@
+services:
+  wx-app:
+    build: .
+    container_name: formal-project
+    volumes:
+      - .:/usr/src/app
+    command: /bin/bash -c "npm i && npm build"

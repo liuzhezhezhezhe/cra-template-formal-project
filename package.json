@@ -1,0 +1,31 @@
+{
+    "name": "cra-template-formal-project",
+    "version": "1.0.0",
+    "keywords": [
+      "react",
+      "create-react-app",
+      "template",
+      "typescript",
+      "eslint",
+      "craco",
+      "docker",
+      "mobx"
+    ],
+    "description": "The Formal TypeScript Project template for Create React App.",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Soul-Stone/cra-template-formal-project.git",
+      "directory": "packages/cra-template-formal-project"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=18.12.1"
+    },
+    "bugs": {
+      "url": "https://github.com/Soul-Stone/cra-template-formal-project/issues"
+    },
+    "files": [
+      "template",
+      "template.json"
+    ]
+  }

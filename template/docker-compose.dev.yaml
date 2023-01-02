@@ -1,0 +1,9 @@
+services:
+  wx-app:
+    build: .
+    container_name: formal-project
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/usr/src/app
+    command: /bin/bash -c "npm i && npm start"
