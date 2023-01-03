@@ -14,7 +14,7 @@
     "description": "The Formal TypeScript Project template for Create React App.",
     "repository": {
       "type": "git",
-      "url": "https://github.com/Soul-Stone/cra-template-formal-project.git",
+      "url": "https://github.com/liuzhezhezhezhe/cra-template-formal-project.git",
       "directory": "packages/cra-template-formal-project"
     },
     "license": "MIT",
@@ -22,7 +22,7 @@
       "node": ">=18.12.1"
     },
     "bugs": {
-      "url": "https://github.com/Soul-Stone/cra-template-formal-project/issues"
+      "url": "https://github.com/liuzhezhezhezhe/cra-template-formal-project/issues"
     },
     "files": [
       "template",
