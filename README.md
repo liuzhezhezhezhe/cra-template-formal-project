@@ -3,7 +3,7 @@
 
 # Formal typescript project Create React App template
 
-[Create React App](https://github.com/facebook/create-react-app) (CRA) template to build and publish formal project with **typescript**, **eslint**, **mobx**, **craco** and **docker** configurations.There is also a Standard Structure Folder for developer.
+[Create React App](https://github.com/facebook/create-react-app) (CRA) template to build and publish formal project with **typescript**, **eslint**, **mobx**, **axios**, **craco** and **docker** configurations.There is also a Standard Structure Folder for developer.
 
 ## Usage
 
@@ -28,4 +28,5 @@ docker-compose -f docker-compose-dev.yaml up
 - [Docker](https://www.docker.com/) for unified development environment.
 - [Craco](https://craco.js.org/) for customizing most things when using [Create React App](https://create-react-app.dev/).
 - [Mobx](https://mobx.js.org/README.html) for state management.
+- [axios](https://www.axios.com/) for request.
 - [Eslint](https://eslint.org/) and [Typescript](https://www.typescriptlang.org/) for standardizing code.

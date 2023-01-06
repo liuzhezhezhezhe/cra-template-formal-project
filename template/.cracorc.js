@@ -1,4 +1,9 @@
 const path = require("path");
+const { DefinePlugin } = require("webpack");
+
+const config = require("dotenv").config({
+  path: path.resolve(__dirname, "./.env." + process.env.NODE_ENV)
+});
 
 module.exports = {
   webpack: {
@@ -13,6 +18,13 @@ module.exports = {
       "@/constants": path.resolve(__dirname, "./src/constants"),
       "@/mixins": path.resolve(__dirname, "./src/mixins"),
     },
+    plugins: {
+      add: [
+        new DefinePlugin({
+          BASE_URL: JSON.stringify(config.parsed.BASE_URL)
+        })
+      ]
+    }
   },
   devServer: {
     port: 8888

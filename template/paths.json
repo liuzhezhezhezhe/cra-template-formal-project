@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "rootDir": ".",
+      "paths": {
+        "@/pages/*": ["./src/pages/*"],
+        "@/components/*": ["./src/components/*"],
+        "@/utils/*": ["./src/utils/*"],
+        "@/types/*": ["./src/types/*"],
+        "@/hooks/*": ["./src/hooks/*"],
+        "@/apis/*": ["./src/apis/*"],
+        "@/stores/*": ["./src/stores/*"],
+        "@/constants/*": ["./src/constants/*"],
+        "@/mixins/*": ["./src/mixins/*"]
+      }
+    }
+  }
+  
