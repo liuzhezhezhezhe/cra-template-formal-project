@@ -35,9 +35,9 @@ instance.interceptors.request.use(
  */
 instance.interceptors.response.use(
   (response) => {
-    const { code, msg, data } = response.data;
-    if (code === 200) return data;
-    else if (code === 401) {
+    const { status } = response;
+    if (status === 200) return response;
+    else if (status === 401) {
       // Add some method to resolve problem
     }
     return Promise.reject(response.data);

@@ -28,5 +28,5 @@ docker-compose -f docker-compose-dev.yaml up
 - [Docker](https://www.docker.com/) for unified development environment.
 - [Craco](https://craco.js.org/) for customizing most things when using [Create React App](https://create-react-app.dev/).
 - [Mobx](https://mobx.js.org/README.html) for state management.
-- [axios](https://www.axios.com/) for request.
+- [axios](https://axios-http.com/docs/intro) for request.
 - [Eslint](https://eslint.org/) and [Typescript](https://www.typescriptlang.org/) for standardizing code.
